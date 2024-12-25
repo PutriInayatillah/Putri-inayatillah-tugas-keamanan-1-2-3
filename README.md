@@ -1,11 +1,9 @@
 # Putri-inayatillah-tugas-keamanan-1-2-3
 
 1. Nama Tugas: Aplikasi Caesar Cipher dengan GUI
-
-Isi Tugas: Aplikasi ini digunakan untuk melakukan enkripsi dan dekripsi teks menggunakan metode Caesar Cipher. Metode ini bekerja dengan cara mengganti setiap huruf dalam teks dengan huruf lain yang berada pada jarak tertentu (shift) dalam urutan alfabet. Pengguna dapat memasukkan teks yang ingin dienkripsi atau didekripsi, memberikan nilai pergeseran (shift), dan mendapatkan hasilnya melalui antarmuka grafis yang mudah digunakan.
+Aplikasi ini digunakan untuk melakukan enkripsi dan dekripsi teks menggunakan metode Caesar Cipher. Metode ini bekerja dengan cara mengganti setiap huruf dalam teks dengan huruf lain yang berada pada jarak tertentu (shift) dalam urutan alfabet. Pengguna dapat memasukkan teks yang ingin dienkripsi atau didekripsi, memberikan nilai pergeseran (shift), dan mendapatkan hasilnya melalui antarmuka grafis yang mudah digunakan.
 
 Cara Menjalankan:
-
 Simpan kode Python ini ke file dengan ekstensi .py (misalnya caesar_cipher_gui.py).
 Pastikan Python sudah terinstal di komputer Anda.
 Buka terminal atau command prompt, lalu jalankan file dengan perintah:
@@ -14,18 +12,15 @@ Copy code
 python caesar_cipher_gui.py
 Setelah program berjalan, akan muncul jendela GUI.
 Untuk Enkripsi:
-
 Masukkan teks yang ingin dienkripsi di kolom Masukkan Plaintext.
 Isi nilai shift (pergeseran) di kolom Pergeseran Kunci (Shift).
 Klik tombol Enkripsi untuk melihat hasil enkripsi yang muncul di kolom Hasil Enkripsi.
 Untuk Dekripsi:
-
 Masukkan teks yang sudah dienkripsi (ciphertext) di kolom Masukkan Ciphertext.
 Isi nilai shift (pergeseran) di kolom Pergeseran Kunci (Shift).
 Klik tombol Dekripsi untuk melihat hasil dekripsi yang muncul di kolom Hasil Dekripsi.
 
 2. Nama Tugas: Aplikasi Enkripsi dan Dekripsi DES dengan GUI
-
 Data Encryption Standard (DES) adalah salah satu algoritma enkripsi simetrik yang digunakan untuk mengamankan data dengan cara mengubahnya menjadi format yang tidak dapat dibaca tanpa kunci khusus. DES bekerja dengan menggunakan satu kunci untuk proses enkripsi (mengubah data asli menjadi data terenkripsi) dan dekripsi (mengembalikan data terenkripsi ke bentuk aslinya).
 Isi Tugas:
 Aplikasi ini menggunakan metode Data Encryption Standard (DES) untuk melakukan enkripsi dan dekripsi teks. Dengan aplikasi ini :
@@ -38,7 +33,6 @@ Key (8 karakter): Masukkan kunci yang panjangnya tepat 8 karakter.
 Encrypted Text: Menampilkan hasil enkripsi teks.
 Decrypted Text: Menampilkan hasil dekripsi dari teks terenkripsi.
 Klik tombol Encrypt untuk mengenkripsi teks, atau tombol Decrypt untuk mendekripsi teks yang sudah terenkripsi.
-
 Jika ada error atau kesalahan input (misalnya, panjang kunci tidak 8 karakter), akan muncul pesan peringatan atau error.
 
 3. Nama tugas : Steganografi
